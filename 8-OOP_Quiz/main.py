@@ -1,7 +1,7 @@
 import Classes
-import Questions_List
+import Questions_List as Qlist
 
-quiz_list = Questions_List.question_list
+quiz_list = Qlist.question_list
 
 quiz = Classes.Quiz(quiz_list)
 quiz.showQuestion()
